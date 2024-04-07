@@ -2,3 +2,25 @@
 @import "primeng/resources/primeng.css";
 @import "primeflex/primeflex.css";
 @import "primeicons/primeicons.css";
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    --space: 32px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #757088;
+}
+
+.borel {
+    font-family: "Borel", cursive;
+}
