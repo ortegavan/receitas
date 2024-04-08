@@ -1,5 +1,7 @@
 <app-header />
 
-@for (recipe of recipes$ | async; track recipe.id) {
-{{ recipe.name }}
-}
+<div class="recipes">
+    @for (recipe of recipes$ | async; track recipe.id) {
+    <app-recipe [recipe]="recipe" />
+    }
+</div>

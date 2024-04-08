@@ -1,1 +1,13 @@
-<p>recipe works!</p>
+<div class="recipe">
+    <div>
+        <img [src]="'/assets/img/' + recipe.imagePath" alt="{{ recipe.name }}" />
+    </div>
+    <div class="info">
+        <h3>
+            {{ recipe.name }}
+        </h3>
+        <!-- <p>
+            {{ recipe.description }}
+        </p> -->
+    </div>
+</div>

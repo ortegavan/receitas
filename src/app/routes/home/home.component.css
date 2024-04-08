@@ -1,0 +1,6 @@
+.recipes {
+    padding: 0 var(--space);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space);
+}
