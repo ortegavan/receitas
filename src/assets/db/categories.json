@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Prato principal"
+    },
+    {
+        "id": 2,
+        "name": "Café da manhã"
+    },
+    {
+        "id": 3,
+        "name": "Lanche"
+    },
+    {
+        "id": 4,
+        "name": "Sobremesa"
+    },
+    {
+        "id": 5,
+        "name": "Acompanhamento"
+    },
+    {
+        "id": 6,
+        "name": "Salada"
+    }
+]

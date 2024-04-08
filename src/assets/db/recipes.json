@@ -1,0 +1,205 @@
+[
+    {
+        "id": 1,
+        "name": "Feijoada",
+        "description": "Um prato tradicional brasileiro feito com feijão preto e uma variedade de carnes de porco e boi, cozido lentamente.",
+        "categories": [1],
+        "imagePath": "feijoada.jpg",
+        "ingredients": [
+            "500g de feijão preto",
+            "200g de carne seca",
+            "100g de costelinha de porco",
+            "1 linguiça calabresa",
+            "1 linguiça paio",
+            "200g de lombo de porco",
+            "2 cebolas picadas",
+            "4 dentes de alho picados",
+            "Sal e pimenta a gosto",
+            "Folhas de louro"
+        ],
+        "instructions": [
+            "Deixe o feijão de molho por 12 horas.",
+            "Cozinhe o feijão com as folhas de louro até que esteja macio.",
+            "Em outra panela, cozinhe as carnes com sal e pimenta.",
+            "Refogue a cebola e o alho e adicione ao feijão.",
+            "Adicione as carnes ao feijão e deixe cozinhar por mais 1 hora.",
+            "Sirva com arroz branco, farofa, couve e laranja."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Moqueca Baiana",
+        "description": "Um ensopado de peixe e frutos do mar com leite de coco, azeite de dendê e temperos frescos.",
+        "categories": [1],
+        "imagePath": "moqueca-baiana.jpg",
+        "ingredients": [
+            "1kg de peixe branco em postas",
+            "200g de camarão",
+            "1 pimentão verde fatiado",
+            "1 pimentão vermelho fatiado",
+            "1 tomate fatiado",
+            "1 cebola fatiada",
+            "2 dentes de alho picados",
+            "200ml de leite de coco",
+            "2 colheres de sopa de azeite de dendê",
+            "Coentro, sal e limão a gosto"
+        ],
+        "instructions": [
+            "Tempere o peixe e o camarão com sal, limão e alho.",
+            "Em uma panela, monte camadas alternadas de peixe, camarão, pimentões, tomate e cebola.",
+            "Adicione o leite de coco e o azeite de dendê.",
+            "Cozinhe em fogo baixo com a panela tampada por aproximadamente 30 minutos.",
+            "Adicione coentro fresco picado antes de servir."
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Pão de Queijo",
+        "description": "Bolinhos de pão assados, leves e fofos, feitos com polvilho e queijo.",
+        "categories": [2, 3],
+        "imagePath": "pao-de-queijo.jpg",
+        "ingredients": [
+            "500g de polvilho azedo",
+            "200ml de leite",
+            "100ml de óleo",
+            "2 ovos",
+            "200g de queijo Minas ralado",
+            "Sal a gosto"
+        ],
+        "instructions": [
+            "Ferva o leite com óleo e sal.",
+            "Despeje sobre o polvilho em uma tigela e misture.",
+            "Adicione os ovos e o queijo, amasse até obter uma massa homogênea.",
+            "Faça bolinhas e coloque em uma assadeira.",
+            "Asse em forno médio por 20 minutos ou até dourar."
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Coxinha",
+        "description": "Salgado brasileiro em forma de gota, feito com massa de batata e recheado com frango desfiado.",
+        "categories": [3],
+        "imagePath": "coxinha.jpg",
+        "ingredients": [
+            "500g de peito de frango",
+            "2 batatas grandes",
+            "2 copos de farinha de trigo",
+            "1 cebola picada",
+            "2 dentes de alho picados",
+            "Salsinha, sal e pimenta a gosto",
+            "Óleo para fritar"
+        ],
+        "instructions": [
+            "Cozinhe o frango com temperos, desfie e reserve.",
+            "Cozinhe as batatas, amasse e misture com a farinha para fazer a massa.",
+            "Refogue o frango desfiado com cebola, alho e salsinha.",
+            "Modele a massa em forma de gota, recheie com o frango e feche bem.",
+            "Frite em óleo quente até dourar."
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Acarajé",
+        "description": "Bolinho frito de feijão fradinho, servido com vatapá, camarão seco e salada.",
+        "categories": [3],
+        "imagePath": "acaraje.jpg",
+        "ingredients": [
+            "500g de feijão fradinho",
+            "1 cebola",
+            "Sal a gosto",
+            "Óleo de dendê para fritar",
+            "Vatapá, camarão seco e salada para servir"
+        ],
+        "instructions": [
+            "Deixe o feijão de molho e retire a pele.",
+            "Bata o feijão no liquidificador com a cebola e sal até formar uma massa.",
+            "Faça bolinhos e frite no óleo de dendê bem quente.",
+            "Sirva com vatapá, camarão seco e salada."
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Brigadeiro",
+        "description": "Doce brasileiro feito com leite condensado, cacau em pó e manteiga, enrolado em chocolate granulado.",
+        "categories": [4],
+        "imagePath": "brigadeiro.jpg",
+        "ingredients": [
+            "1 lata de leite condensado",
+            "1 colher de sopa de manteiga",
+            "7 colheres de sopa de cacau em pó",
+            "Chocolate granulado para enrolar"
+        ],
+        "instructions": [
+            "Misture o leite condensado, a manteiga e o cacau em pó em uma panela.",
+            "Cozinhe em fogo baixo, mexendo sempre, até desgrudar do fundo da panela.",
+            "Deixe esfriar, faça bolinhas e passe no chocolate granulado."
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Farofa",
+        "description": "Acompanhamento clássico brasileiro, feito com farinha de mandioca torrada, bacon, e temperos.",
+        "categories": [5],
+        "imagePath": "farofa.jpg",
+        "ingredients": [
+            "2 xícaras de farinha de mandioca",
+            "100g de bacon em cubos",
+            "1 cebola picada",
+            "2 dentes de alho picados",
+            "1/2 xícara de manteiga",
+            "Sal e pimenta a gosto",
+            "Salsinha picada a gosto"
+        ],
+        "instructions": [
+            "Em uma panela, frite o bacon até ficar crocante. Reserve.",
+            "Na mesma panela, adicione a manteiga, a cebola, e o alho, refogando até dourarem.",
+            "Adicione a farinha de mandioca e mexa constantemente até torrar levemente.",
+            "Volte o bacon para a panela, tempere com sal, pimenta, e misture bem.",
+            "Finalize com salsinha picada e sirva."
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Salada de Batata com Maionese",
+        "description": "Salada cremosa de batatas cozidas, maionese, ervilhas, cenoura e temperos.",
+        "categories": [5],
+        "imagePath": "salada-batata-maionese.jpg",
+        "ingredients": [
+            "4 batatas grandes cozidas e cortadas em cubos",
+            "1 cenoura grande cozida e cortada em cubos",
+            "1/2 xícara de ervilhas cozidas",
+            "1 cebola pequena picada",
+            "1 xícara de maionese",
+            "Sal e pimenta a gosto",
+            "Salsinha picada a gosto"
+        ],
+        "instructions": [
+            "Em uma tigela grande, misture as batatas, cenoura, ervilhas, e cebola.",
+            "Adicione a maionese, sal, e pimenta, misturando delicadamente até que todos os ingredientes estejam bem incorporados.",
+            "Leve à geladeira por pelo menos 1 hora antes de servir.",
+            "Finalize com salsinha picada."
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Salada Verde",
+        "description": "Salada fresca com mix de folhas verdes, tomate cereja, pepino e molho vinagrete.",
+        "categories": [6],
+        "imagePath": "salada-verde.jpg",
+        "ingredients": [
+            "2 xícaras de folhas de alface",
+            "2 xícaras de folhas de rúcula",
+            "1/2 xícara de tomate cereja cortados ao meio",
+            "1 pepino japonês fatiado",
+            "Para o molho vinagrete:",
+            "3 colheres de sopa de azeite de oliva",
+            "1 colher de sopa de vinagre balsâmico",
+            "Sal e pimenta a gosto"
+        ],
+        "instructions": [
+            "Em uma saladeira, combine as folhas de alface, rúcula, tomate cereja, e pepino.",
+            "Em um recipiente à parte, misture o azeite de oliva, o vinagre balsâmico, sal, e pimenta para fazer o molho.",
+            "Regue a salada com o molho vinagrete antes de servir."
+        ]
+    }
+]
