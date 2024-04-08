@@ -1,3 +1,14 @@
 header {
-    padding: var(--space);
+    padding: var(--space) var(--margin);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    gap: var(--space);
+}
+
+a i {
+    margin-right: 8px;
 }

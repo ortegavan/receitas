@@ -1,0 +1,22 @@
+h1 {
+    color: #fff;
+}
+
+.hero {
+    background: url("/assets/img/ingredientes.jpg") no-repeat center center;
+    background-size: cover;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space);
+}
+
+.search {
+    display: flex;
+}
+
+.search-input {
+    width: 700px;
+}
