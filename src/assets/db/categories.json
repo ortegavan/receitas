@@ -1,26 +1,32 @@
 [
     {
         "id": 1,
-        "name": "Prato principal"
+        "name": "Prato principal",
+        "icon": "fa-plate-utensils"
     },
     {
         "id": 2,
-        "name": "Café da manhã"
+        "name": "Café da manhã",
+        "icon": "fa-pan-frying"
     },
     {
         "id": 3,
-        "name": "Lanche"
+        "name": "Lanche",
+        "icon": "fa-burger-cheese"
     },
     {
         "id": 4,
-        "name": "Sobremesa"
+        "name": "Sobremesa",
+        "icon": "fa-cupcake"
     },
     {
         "id": 5,
-        "name": "Acompanhamento"
+        "name": "Acompanhamento",
+        "icon": "fa-bread-loaf"
     },
     {
         "id": 6,
-        "name": "Salada"
+        "name": "Salada",
+        "icon": "fa-salad"
     }
 ]

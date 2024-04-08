@@ -5,7 +5,7 @@ h1 {
 .hero {
     background: url("/assets/img/ingredientes.jpg") no-repeat center center;
     background-size: cover;
-    height: 640px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,5 +18,5 @@ h1 {
 }
 
 .search-input {
-    width: 700px;
+    width: 600px;
 }

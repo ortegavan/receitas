@@ -1,0 +1,14 @@
+.category a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.category p {
+    font-weight: 700;
+}
+
+.category i {
+    font-size: 2.4rem;
+}

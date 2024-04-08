@@ -4,3 +4,13 @@
     flex-wrap: wrap;
     gap: var(--space);
 }
+
+.categories {
+    padding: var(--space) var(--margin);
+    display: flex;
+    justify-content: space-between;
+}
+
+app-category {
+    flex: 1;
+}

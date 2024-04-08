@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { InputTextModule } from 'primeng/inputtext';
 import { InputGroupModule } from 'primeng/inputgroup';
 import { InputGroupAddonModule } from 'primeng/inputgroupaddon';
@@ -15,5 +15,6 @@ import { ButtonModule } from 'primeng/button';
     ],
     templateUrl: './hero.component.html',
     styleUrl: './hero.component.css',
+    changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HeroComponent {}
