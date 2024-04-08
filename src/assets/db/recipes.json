@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Feijoada",
         "description": "Um prato tradicional brasileiro feito com feijão preto e uma variedade de carnes de porco e boi, cozido lentamente.",
-        "categories": [1],
+        "categoryIds": [1],
         "imagePath": "feijoada.jpg",
         "ingredients": [
             "500g de feijão preto",
@@ -30,7 +30,7 @@
         "id": 2,
         "name": "Moqueca Baiana",
         "description": "Um ensopado de peixe e frutos do mar com leite de coco, azeite de dendê e temperos frescos.",
-        "categories": [1],
+        "categoryIds": [1],
         "imagePath": "moqueca-baiana.jpg",
         "ingredients": [
             "1kg de peixe branco em postas",
@@ -56,7 +56,7 @@
         "id": 3,
         "name": "Pão de Queijo",
         "description": "Bolinhos de pão assados, leves e fofos, feitos com polvilho e queijo.",
-        "categories": [2, 3],
+        "categoryIds": [2, 3],
         "imagePath": "pao-de-queijo.jpg",
         "ingredients": [
             "500g de polvilho azedo",
@@ -78,7 +78,7 @@
         "id": 4,
         "name": "Coxinha",
         "description": "Salgado brasileiro em forma de gota, feito com massa de batata e recheado com frango desfiado.",
-        "categories": [3],
+        "categoryIds": [3],
         "imagePath": "coxinha.jpg",
         "ingredients": [
             "500g de peito de frango",
@@ -101,7 +101,7 @@
         "id": 5,
         "name": "Acarajé",
         "description": "Bolinho frito de feijão fradinho, servido com vatapá, camarão seco e salada.",
-        "categories": [3],
+        "categoryIds": [3],
         "imagePath": "acaraje.jpg",
         "ingredients": [
             "500g de feijão fradinho",
@@ -121,7 +121,7 @@
         "id": 6,
         "name": "Brigadeiro",
         "description": "Doce brasileiro feito com leite condensado, cacau em pó e manteiga, enrolado em chocolate granulado.",
-        "categories": [4],
+        "categoryIds": [4],
         "imagePath": "brigadeiro.jpg",
         "ingredients": [
             "1 lata de leite condensado",
@@ -139,7 +139,7 @@
         "id": 7,
         "name": "Farofa",
         "description": "Acompanhamento clássico brasileiro, feito com farinha de mandioca torrada, bacon, e temperos.",
-        "categories": [5],
+        "categoryIds": [5],
         "imagePath": "farofa.jpg",
         "ingredients": [
             "2 xícaras de farinha de mandioca",
@@ -162,7 +162,7 @@
         "id": 8,
         "name": "Salada de Batata com Maionese",
         "description": "Salada cremosa de batatas cozidas, maionese, ervilhas, cenoura e temperos.",
-        "categories": [5],
+        "categoryIds": [5],
         "imagePath": "salada-batata-maionese.jpg",
         "ingredients": [
             "4 batatas grandes cozidas e cortadas em cubos",
@@ -184,7 +184,7 @@
         "id": 9,
         "name": "Salada Verde",
         "description": "Salada fresca com mix de folhas verdes, tomate cereja, pepino e molho vinagrete.",
-        "categories": [6],
+        "categoryIds": [6],
         "imagePath": "salada-verde.jpg",
         "ingredients": [
             "2 xícaras de folhas de alface",

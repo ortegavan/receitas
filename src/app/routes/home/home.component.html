@@ -5,8 +5,13 @@
     <app-category *ngFor="let category of categories$ | async" [category]="category" />
 </div>
 
-<!-- <div class="recipes">
-    @for (recipe of recipes$ | async; track recipe.id) {
-    <app-recipe [recipe]="recipe" />
-    }
-</div> -->
+<div class="center">
+    <h1>Mais populares</h1>
+    <small>
+        Testadas e aprovadas: estas são as receitas mais populares da semana.
+    </small>
+</div>
+
+<div class="recipes">
+    <app-recipe *ngFor="let recipe of recipes$ | async" [recipe]="recipe" />
+</div>

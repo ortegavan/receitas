@@ -2,6 +2,7 @@ header {
     padding: var(--space) var(--margin);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav {
@@ -11,4 +12,9 @@ nav {
 
 a i {
     margin-right: 8px;
+}
+
+.logo img {
+    width: 180px;
+    height: 100%;
 }

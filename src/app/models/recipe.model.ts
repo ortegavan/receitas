@@ -1,9 +1,12 @@
+import { Category } from './category.model';
+
 export type Recipe = {
     id: number;
     name: string;
     description: string;
-    categories: number[];
     imagePath: string;
     ingredients: string[];
     instructions: string[];
+    categoryIds: number[];
+    categories?: Category[];
 };

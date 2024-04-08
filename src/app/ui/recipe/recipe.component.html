@@ -1,13 +1,16 @@
-<div class="recipe">
+<a href="#" class="recipe">
     <div>
         <img [src]="'/assets/img/' + recipe.imagePath" alt="{{ recipe.name }}" />
     </div>
-    <div class="info">
+    <div>
+        <small *ngIf="recipe.categories">
+            {{ recipe.categories[0].name }}
+        </small>
         <h3>
             {{ recipe.name }}
         </h3>
-        <!-- <p>
+        <p>
             {{ recipe.description }}
-        </p> -->
+        </p>
     </div>
-</div>
+</a>
