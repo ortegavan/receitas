@@ -12,6 +12,7 @@ html {
     --brand: #05c46b;
     --text: #2b2e4a;
     --background: #f4f4f4;
+    --brightness: 0.9;
 }
 
 body {
@@ -57,4 +58,8 @@ small {
     color: var(--background);
     background-color: var(--brand);
     border: none;
+}
+
+.primary-button:hover {
+    filter: brightness(var(--brightness));
 }
