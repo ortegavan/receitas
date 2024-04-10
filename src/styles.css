@@ -9,14 +9,22 @@
 html {
     --space: 32px;
     --margin: 160px;
+    --brand: #05c46b;
+    --text: #2b2e4a;
+    --background: #f4f4f4;
 }
 
 body {
-    color: #333;
-    background-color: #fff;
+    color: var(--text);
+    background-color: var(--background);
+    font-optical-sizing: auto;
+}
+
+body,
+input,
+button {
     font-family: "Nunito", sans-serif;
     font-size: 14px;
-    font-optical-sizing: auto;
 }
 
 h1 {
@@ -24,12 +32,12 @@ h1 {
 }
 
 a {
-    color: #333;
+    color: var(--text);
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--primary-color);
+    color: var(--brand);
 }
 
 small {
@@ -38,9 +46,15 @@ small {
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
-    color: var(--primary-color);
+    color: var(--brand);
 }
 
 .center {
     text-align: center;
+}
+
+.primary-button {
+    color: var(--background);
+    background-color: var(--brand);
+    border: none;
 }
