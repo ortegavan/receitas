@@ -19,10 +19,14 @@
 <div class="center">
     <h1>Mais amados</h1>
     <small>
-        Confira os ingredientes mais amados e usados na semana.
+        Confira os ingredientes mais amados e usados na semana e sugestões de receitas com eles.
     </small>
 </div>
 
 <div class="ingredients">
     <app-ingredient *ngFor="let ingredient of ingredients$ | async" [ingredient]="ingredient" />
+</div>
+
+<div class="recipes">
+    <app-recipe *ngFor="let recipe of recipesByIngredient$ | async" [recipe]="recipe" />
 </div>

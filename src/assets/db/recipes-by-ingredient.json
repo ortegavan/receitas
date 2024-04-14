@@ -1,0 +1,159 @@
+[
+    {
+        "id": 10,
+        "name": "Espaguete ao Sugo",
+        "description": "Um clássico prato italiano de espaguete servido com um molho de tomate fresco e manjericão, simples e delicioso.",
+        "categoryIds": [1],
+        "imagePath": "espaguete-ao-sugo.jpg",
+        "ingredients": [
+            "400g de espaguete",
+            "800g de tomate pelado em lata",
+            "3 dentes de alho picados",
+            "1 cebola picada",
+            "10 folhas de manjericão",
+            "3 colheres de sopa de azeite de oliva",
+            "Sal a gosto",
+            "Pimenta-do-reino a gosto",
+            "Queijo parmesão ralado para servir"
+        ],
+        "instructions": [
+            "Cozinhe o espaguete em água salgada conforme as instruções da embalagem até ficar al dente.",
+            "Enquanto o espaguete cozinha, aqueça o azeite em uma panela e refogue a cebola e o alho até ficarem translúcidos.",
+            "Adicione os tomates pelados à panela, amasse-os levemente com um garfo para quebrar os tomates. Tempere com sal e pimenta.",
+            "Deixe o molho cozinhar em fogo médio-baixo por cerca de 20 minutos, até engrossar um pouco.",
+            "Adicione as folhas de manjericão rasgadas ao molho e misture.",
+            "Escorra o espaguete e misture-o ao molho de tomate na panela.",
+            "Sirva o espaguete ao sugo quente, polvilhado com queijo parmesão ralado."
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Batata Recheada",
+        "description": "Batatas assadas recheadas com bacon crocante, queijo cheddar e cebolinha, um prato saboroso e reconfortante.",
+        "categoryIds": [5, 1],
+        "imagePath": "batata-recheada.jpg",
+        "ingredients": [
+            "4 batatas grandes",
+            "100g de bacon em cubos",
+            "1 xícara de queijo cheddar ralado",
+            "1/2 xícara de creme de leite",
+            "4 cebolinhas picadas",
+            "2 colheres de sopa de manteiga",
+            "Sal a gosto",
+            "Pimenta-do-reino a gosto"
+        ],
+        "instructions": [
+            "Pré-aqueça o forno a 200°C.",
+            "Lave bem as batatas e faça furos na superfície com um garfo. Embrulhe-as em papel alumínio e asse no forno por cerca de 1 hora ou até ficarem macias.",
+            "Enquanto as batatas assam, frite o bacon em uma frigideira até ficar crocante. Reserve.",
+            "Retire as batatas do forno e deixe esfriar um pouco. Corte uma tampa no topo de cada batata e retire cuidadosamente parte do miolo com uma colher, deixando uma camada fina junto à casca.",
+            "Amasse o miolo retirado com manteiga, creme de leite, sal e pimenta. Misture o bacon, metade do queijo cheddar e metade da cebolinha.",
+            "Recheie as batatas com a mistura, salpique o restante do queijo por cima e retorne ao forno por mais 15 minutos ou até o queijo derreter.",
+            "Retire do forno, finalize com a cebolinha restante e sirva quente."
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Anéis Empanados de Cebola",
+        "description": "Anéis de cebola crocantes e dourados, perfeitos como aperitivo ou acompanhamento, servidos com seu molho favorito.",
+        "categoryIds": [5],
+        "imagePath": "aneis-empanados-de-cebola.jpg",
+        "ingredients": [
+            "2 cebolas grandes cortadas em rodelas de 1/4 de polegada",
+            "1 xícara de farinha de trigo",
+            "1 colher de chá de páprica",
+            "1 colher de chá de alho em pó",
+            "1/2 colher de chá de sal",
+            "1/4 colher de chá de pimenta-do-reino",
+            "1 ovo",
+            "1 xícara de leite",
+            "1 xícara de farinha de rosca",
+            "Óleo para fritar"
+        ],
+        "instructions": [
+            "Em uma tigela, misture a farinha de trigo, a páprica, o alho em pó, o sal e a pimenta.",
+            "Em outra tigela, bata o ovo e misture com o leite.",
+            "Passe cada anel de cebola na mistura de farinha, depois na mistura de ovo e leite, e finalmente na farinha de rosca, garantindo que estejam bem cobertos.",
+            "Aqueça o óleo em uma frigideira funda ou fritadeira a 180°C.",
+            "Frite os anéis de cebola em pequenos lotes até que estejam dourados e crocantes, cerca de 2-3 minutos por lote.",
+            "Retire os anéis de cebola com uma escumadeira e escorra em papel toalha.",
+            "Sirva quente com molho ranch, ketchup ou seu molho favorito."
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Eggs Benedict",
+        "description": "Um prato sofisticado de café da manhã ou brunch que consiste em metades de muffin inglês, cada uma coberta com bacon canadense, um ovo pochê e molho hollandaise cremoso.",
+        "categoryIds": [2, 3],
+        "imagePath": "eggs-benedict.jpg",
+        "ingredients": [
+            "4 ovos",
+            "2 muffins ingleses, cortados ao meio",
+            "4 fatias de bacon canadense",
+            "2 colheres de sopa de vinagre branco",
+            "Para o molho hollandaise:",
+            "3 gemas de ovos",
+            "1 colher de sopa de suco de limão",
+            "1/2 xícara de manteiga derretida",
+            "Sal a gosto",
+            "Pimenta caiena a gosto"
+        ],
+        "instructions": [
+            "Comece preparando o molho hollandaise: em uma tigela pequena, bata as gemas de ovo e o suco de limão até obter uma mistura clara e espumosa.",
+            "Coloque a tigela sobre uma panela com água fervente (banho-maria), cuidando para que a tigela não toque na água, e continue batendo.",
+            "Adicione lentamente a manteiga derretida, continuando a bater, até que o molho engrosse. Tempere com sal e pimenta caiena. Remova do calor e reserve.",
+            "Para os ovos pochê, traga uma panela grande com água e o vinagre para uma fervura leve. Quebre cada ovo em uma xícara e deslize-o cuidadosamente na água. Cozinhe por cerca de 3 a 4 minutos até que a clara esteja firme e a gema ainda mole. Remova com uma escumadeira.",
+            "Enquanto os ovos estão pochando, torre as metades dos muffins ingleses e frite o bacon canadense até estar crocante.",
+            "Para montar, coloque uma fatia de bacon em cada metade de muffin, seguido de um ovo pochê. Cubra cada um com uma generosa colher de molho hollandaise.",
+            "Sirva imediatamente."
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Ovos e Bacon Estilo Americano",
+        "description": "Um clássico café da manhã americano composto por ovos fritos e fatias de bacon crocante.",
+        "categoryIds": [2],
+        "imagePath": "ovos-e-bacon.jpg",
+        "ingredients": [
+            "4 ovos grandes",
+            "8 fatias de bacon",
+            "Sal a gosto",
+            "Pimenta-do-reino a gosto"
+        ],
+        "instructions": [
+            "Aqueça uma frigideira grande em fogo médio. Adicione as fatias de bacon e cozinhe até que estejam crocantes, cerca de 6 a 8 minutos. Vire as fatias ocasionalmente para que cozinhem por igual.",
+            "Retire o bacon da frigideira e coloque em papel toalha para drenar o excesso de gordura. Mantenha o bacon aquecido.",
+            "Quebre os ovos na frigideira com a gordura do bacon ainda quente, cuidando para não estourar as gemas. Tempere com sal e pimenta.",
+            "Frite os ovos até que as claras estejam completamente firmes e as gemas ao ponto desejado. Para gemas mais firmes, vire os ovos delicadamente e cozinhe do outro lado por mais alguns minutos.",
+            "Sirva os ovos com as fatias de bacon ao lado."
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Salmão ao Beurre Blanc",
+        "description": "Filés de salmão grelhados à perfeição, servidos com um molho Beurre Blanc suave e cremoso, que realça o sabor rico do salmão com a delicadeza da manteiga.",
+        "categoryIds": [1],
+        "imagePath": "salmao-ao-beurre-blanc.jpg",
+        "ingredients": [
+            "4 filés de salmão",
+            "Sal a gosto",
+            "Pimenta-do-reino a gosto",
+            "2 colheres de sopa de azeite de oliva",
+            "Para o molho Beurre Blanc:",
+            "1/4 xícara de vinho branco",
+            "1/4 xícara de vinagre branco",
+            "2 colheres de sopa de cebola picada finamente",
+            "1 folha de louro",
+            "Pimentas em grão",
+            "200g de manteiga gelada, cortada em cubos pequenos"
+        ],
+        "instructions": [
+            "Tempere os filés de salmão com sal e pimenta-do-reino.",
+            "Aqueça o azeite de oliva em uma frigideira em fogo médio-alto. Adicione os filés de salmão com a pele para baixo e grelhe por cerca de 4 a 5 minutos de cada lado, ou até que a pele esteja crocante e o salmão esteja cozido ao ponto desejado.",
+            "Para o molho Beurre Blanc, em uma panela, combine o vinho, o vinagre, a cebola, a folha de louro e as pimentas em grão. Deixe reduzir em fogo médio até que reste cerca de uma colher de sopa do líquido.",
+            "Retire do fogo e descarte a folha de louro. Adicione gradualmente a manteiga gelada, mexendo constantemente com um batedor de arame, até que o molho fique homogêneo e emulsionado.",
+            "Coe o molho para remover os sólidos.",
+            "Sirva os filés de salmão com o molho Beurre Blanc por cima, idealmente acompanhados de aspargos grelhados ou purê de batatas."
+        ]
+    }
+]

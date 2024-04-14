@@ -10,6 +10,7 @@ import { combineLatest, map } from 'rxjs';
 import { Category } from '../../models/category.model';
 import { IngredientService } from '../../services/ingredient.service';
 import { IngredientComponent } from '../../ui/ingredient/ingredient.component';
+import { RecipeByIngredientService } from '../../services/recipe-by-ingredient.service';
 
 @Component({
     selector: 'app-home',
@@ -34,6 +35,10 @@ export class HomeComponent implements OnInit {
 
     ingredientService = inject(IngredientService);
     ingredients$ = this.ingredientService.getAll();
+
+    recipeByIngredientService = inject(RecipeByIngredientService);
+    recipesByIngredient$ =
+        this.recipeByIngredientService.getByLovedIngredients();
 
     ngOnInit(): void {
         this.recipes$ = combineLatest([
