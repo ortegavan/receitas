@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Tomate",
+        "icon": "tomato"
+    },
+    {
+        "id": 2,
+        "name": "Batata",
+        "icon": "potato"
+    },
+    {
+        "id": 3,
+        "name": "Cebola",
+        "icon": "onion"
+    },
+    {
+        "id": 4,
+        "name": "Ovo",
+        "icon": "egg"
+    },
+    {
+        "id": 5,
+        "name": "Bacon",
+        "icon": "bacon"
+    },
+    {
+        "id": 6,
+        "name": "Manteiga",
+        "icon": "butter"
+    }
+]

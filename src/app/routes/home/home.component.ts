@@ -8,6 +8,8 @@ import { CategoryService } from '../../services/category.service';
 import { CategoryComponent } from '../../ui/category/category.component';
 import { combineLatest, map } from 'rxjs';
 import { Category } from '../../models/category.model';
+import { IngredientService } from '../../services/ingredient.service';
+import { IngredientComponent } from '../../ui/ingredient/ingredient.component';
 
 @Component({
     selector: 'app-home',
@@ -20,6 +22,7 @@ import { Category } from '../../models/category.model';
         RecipeComponent,
         HeroComponent,
         CategoryComponent,
+        IngredientComponent,
     ],
 })
 export class HomeComponent implements OnInit {
@@ -28,6 +31,9 @@ export class HomeComponent implements OnInit {
 
     recipeService = inject(RecipeService);
     recipes$ = this.recipeService.getAll();
+
+    ingredientService = inject(IngredientService);
+    ingredients$ = this.ingredientService.getAll();
 
     ngOnInit(): void {
         this.recipes$ = combineLatest([

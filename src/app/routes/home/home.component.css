@@ -1,10 +1,12 @@
-.categories {
+.categories,
+.ingredients {
     padding: var(--space) var(--margin);
     display: flex;
     justify-content: space-between;
 }
 
-app-category {
+app-category,
+app-ingredient {
     flex: 1;
 }
 

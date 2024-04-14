@@ -15,3 +15,14 @@
 <div class="recipes">
     <app-recipe *ngFor="let recipe of recipes$ | async" [recipe]="recipe" />
 </div>
+
+<div class="center">
+    <h1>Mais amados</h1>
+    <small>
+        Confira os ingredientes mais amados e usados na semana.
+    </small>
+</div>
+
+<div class="ingredients">
+    <app-ingredient *ngFor="let ingredient of ingredients$ | async" [ingredient]="ingredient" />
+</div>

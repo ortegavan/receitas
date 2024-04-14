@@ -1,0 +1,15 @@
+.ingredient a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.ingredient p {
+    font-weight: 700;
+}
+
+.ingredient img {
+    width: 64px;
+    height: 100%;
+}
