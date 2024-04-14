@@ -83,7 +83,7 @@
     {
         "id": 13,
         "name": "Eggs Benedict",
-        "description": "Um prato sofisticado de café da manhã ou brunch que consiste em metades de muffin inglês, cada uma coberta com bacon canadense, um ovo pochê e molho hollandaise cremoso.",
+        "description": "Um prato sofisticado de café da manhã ou brunch que consiste em muffin inglês, bacon canadense, ovo pochê e molho hollandaise.",
         "categoryIds": [2, 3],
         "imagePath": "eggs-benedict.jpg",
         "ingredients": [
