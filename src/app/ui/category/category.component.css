@@ -9,6 +9,7 @@
     font-weight: 700;
 }
 
-.category i {
-    font-size: 2.4rem;
+.category img {
+    width: 64px;
+    height: 100%;
 }

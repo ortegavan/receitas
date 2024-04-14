@@ -2,31 +2,31 @@
     {
         "id": 1,
         "name": "Prato principal",
-        "icon": "fa-plate-utensils"
+        "icon": "dinner"
     },
     {
         "id": 2,
         "name": "Café da manhã",
-        "icon": "fa-pan-frying"
+        "icon": "eggs"
     },
     {
         "id": 3,
         "name": "Lanche",
-        "icon": "fa-burger-cheese"
+        "icon": "burger"
     },
     {
         "id": 4,
         "name": "Sobremesa",
-        "icon": "fa-cupcake"
+        "icon": "pudding"
     },
     {
         "id": 5,
         "name": "Acompanhamento",
-        "icon": "fa-bread-loaf"
+        "icon": "bread"
     },
     {
         "id": 6,
         "name": "Salada",
-        "icon": "fa-salad"
+        "icon": "salad"
     }
 ]
