@@ -11,6 +11,7 @@ app-ingredient {
 }
 
 .recipes {
+    width: 100%;
     padding: var(--space) var(--margin);
     display: flex;
     flex-wrap: wrap;
@@ -18,5 +19,5 @@ app-ingredient {
 }
 
 app-recipe {
-    flex-basis: calc(33% - var(--space));
+    flex-basis: 31.33%;
 }
